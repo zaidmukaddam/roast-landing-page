@@ -1,11 +1,11 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
     <Html lang="en">
-      <Head >
+      <head >
         <script async src='https://cdn.splitbee.io/sb.js'></script>
-      </Head>
+      </head>
       <body>
         <Main />
         <NextScript />
